@@ -1,0 +1,28 @@
+body {
+  padding: 0px;
+  border: 0px;
+  margin: 0px; }
+
+h2 {
+  text-align: center;
+  color: #666666; }
+
+p {
+  text-align: center;
+  padding: 0px 100px; }
+
+.boxs, .box_new {
+  width: 33.333333%;
+  height: 400px;
+  background-color: #ffcc00;
+  float: left; }
+
+.c1 {
+  background-color: #35477d; }
+
+.c2 {
+  background-color: #fbe8d3; }
+
+.box_new {
+  background-color: #f62a66;
+  height: 120px; }

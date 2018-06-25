@@ -1,0 +1,37 @@
+$yellow : #ffcc00;
+
+@mixin size_obj($width, $height , $bg_color) {
+  width: $width;
+  height: $height;
+  background-color: $bg_color;
+}
+
+body {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+h2 {
+  text-align: center;
+  color: #666666;
+}
+p {
+  text-align: center;
+  padding: 0px 100px;
+}
+
+.boxs {
+  @include size_obj(33.333333%, 400px, $yellow);
+  float: left;
+}
+.c1 {
+  background-color: #35477d;
+}
+.c2 {
+  background-color: #fbe8d3;
+}
+.box_new {
+  @extend .boxs;
+  background-color: #f62a66;
+  height: 120px;
+}
